@@ -26,8 +26,8 @@
 
 <body>
   <header>
-    <nav class="navbar">
-      <span class="navbar__logo">
+    <nav class="navbar top--nav">
+      <span class="navbar__logo navbar--white">
         sunnyside
       </span>
       <ul class="navbar__links-container">
@@ -41,11 +41,11 @@
     <h1>We are creatives</h1>
   </header>
 
-  <main>
+  <main class="wrapper">
     <section class="info">
       <div class="info__gallery flex">
 
-        <div>
+        <div class="info__gallery-card">
           <h2 class="info__gallery-title">
             Transform your brand
           </h2>
@@ -59,53 +59,131 @@
         <div class="info__gallery-img">
           <img src="./images/desktop/image-transform.jpg" alt="">
         </div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+
+        <div class="info__gallery-img">
+          <img src="./images/desktop/image-stand-out.jpg" alt="">
+        </div>
+
+        <div class="info__gallery-card">
+          <h2 class="info__gallery-title">
+            Stand out to the right audience
+          </h2>
+          <p class="info__gallery-text">
+            Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters,
+            we’ll build
+            and extend your brand in digital places.
+          </p>
+          <a href="#" class="btn">Learn more</a>
+        </div>
+
+        <div class="info__gallery-card">
+          <h3 class="info__gallery-title">Graphic Design</h3>
+          <p class="info__gallery-text">Great design makes you memorable. We deliver artwork that underscores your
+            brand message and captures potential
+            clients’ attention.</p>
+
+        </div>
+
+        <div class="info__gallery-card">
+          <h3 class="info__gallery-title">Photography</h3>
+          <p class="info__gallery-text">
+            Increase your credibility by getting the most stunning, high-quality photos that improve your business
+            image.
+          </p>
+        </div>
 
       </div> <!-- info__gallery -->
     </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section class="testimonials">
+
+      <h4 class="testimonials__title">Client Testimonials</h4>
+
+      <div class="testimonials__card-container">
+        <div class="testimonials__card flex-col">
+          <img src="" alt="">
+          <p class="testimonials__text">We put our trust in Sunnyside and they delivered, making sure our needs were met
+            and deadlines were always
+            hit.</p>
+          <div class="testimonials__clientinfo">
+            <p>Emily R.</p>
+            <p>Marketing Director</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonials__card-container">
+        <div class="testimonials__card flex-col">
+          <img src="" alt="">
+          <p class="testimonials__text">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success
+            made it a satisfying and
+            enjoyable
+            experience.
+          </p>
+          <div class="testimonials__clientinfo">
+            <p>Thomas S.</p>
+            <p>Chief Operating Officer</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonials__card-container">
+        <div class="testimonials__card flex-col">
+          <img src="" alt="">
+          <p class="testimonials__text">Incredible end result! Our sales increased over 400% when we worked with
+            Sunnyside. Highly recommended!
+          </p>
+          <div class="testimonials__clientinfo">
+            <p>Jennie F.</p>
+            <p>Business Owner</p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- IMAGE GALLERY SECTION -->
+    <section class="image-gallery">
+      <img class="image-gallery--img" src="./images/desktop/image-gallery-milkbottles.jpg"
+        alt="milk bottles lined up agfainst skyblue wall">
+      <img class="image-gallery--img" src="./images/desktop/image-gallery-orange.jpg"
+        alt="sliced oranges sitting on a plate">
+      <img class="image-gallery--img" src="./images/desktop/image-gallery-cone.jpg"
+        alt="empty ice-cream cone against blue background">
+      <img class="image-gallery--img" src="./images/desktop/image-gallery-sugarcubes.jpg"
+        alt="stacked sugar cubesagainst pink background">
+    </section>
+
+    <!-- NAV SECTION -->
+    <section class="navigation">
+
+      <nav class="navbar bottom-nav">
+        <span class="navbar__logo nav-bar--dark">
+          sunnyside
+        </span>
+        <ul class="navbar__links-container">
+          <li><a href="#" class="navbar__link">About</a></li>
+          <li><a href="#" class="navbar__link">Services</a></li>
+          <li><a href="#" class="navbar__link">Projects</a></li>
+        </ul>
+      </nav>
+
+      <!-- socials -->
+      <div class="socials__container">
+        <a href="#"><i>icon here</i></a>
+        <a href="#"><i>icon here</i></a>
+        <a href="#"><i>icon here</i></a>
+        <a href="#"><i>icon here</i></a>
+      </div>
+    </section>
   </main>
 
-  Stand out to the right audience
-
-  Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build
-  and extend your brand in digital places.
-
-  Learn more
-
-  Graphic design
-  Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential
-  clients’ attention.
-
-  Photography
-  Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
-
-  Client testimonials
-
-  We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
-  Emily R.
-  Marketing Director
-
-  Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable
-  experience.
-  Thomas S.
-  Chief Operating Officer
-
-  Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
-  Jennie F.
-  Business Owner
-
-  About
-  Services
-  Projects
-  Contact
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <footer class="attribution">
+    <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by
+      <a href="#">Jon Ledo</a>.
+    </p>
+  </footer>
 </body>
 
 </html>
