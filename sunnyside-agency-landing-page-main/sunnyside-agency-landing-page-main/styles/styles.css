@@ -369,6 +369,85 @@ header img {
   color: white;
 }
 
+.info__gallery {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.info__gallery .info__gallery-card {
+  width: 50%;
+  height: 600px;
+}
+
+.info__gallery .info__gallery-card .info__gallery-title {
+  font-size: 4rem;
+  width: 60%;
+  margin: 0;
+}
+
+.info__gallery .info__gallery-card .info__gallery-text {
+  width: 62%;
+  line-height: 3rem;
+  margin: 50px 0px;
+}
+
+.info__gallery .info__gallery-card .btn {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #23303e;
+  position: relative;
+  left: -20%;
+}
+
+.info__gallery .info__gallery-card .btn::before {
+  content: '';
+  height: 10px;
+  width: 120%;
+  left: -10%;
+  bottom: -4px;
+  position: absolute;
+  border-radius: 15px;
+  opacity: 0.3;
+}
+
+.info__gallery .info__gallery-card .btn1::before {
+  background: #fad400;
+}
+
+.info__gallery .info__gallery-card .btn2::before {
+  background: #fe7867;
+}
+
+.info__gallery .info__gallery-img {
+  width: 50%;
+}
+
+.info__gallery .info__gallery-img img {
+  display: block;
+}
+
+.info__gallery .card--bg1 {
+  background: url(../../../images/desktop/image-graphic-design.jpg);
+}
+
+.info__gallery .card--bg2 {
+  background: url(../../../images/desktop/image-photography.jpg);
+}
+
+.info__gallery .card--text {
+  text-align: center;
+  padding-top: 370px;
+}
+
+.info__gallery .card--text .info__gallery-title {
+  font-size: 3rem;
+}
+
+.info__gallery .card--text .info__gallery-text {
+  width: 55%;
+}
+
 @media (max-width: 760px) {
   .navbar .navbar__links-container {
     display: none;
