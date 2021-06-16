@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600;800&family=Fraunces:wght@700;900&display=swap");
 html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
@@ -243,6 +243,7 @@ html {
 body {
   font-size: 1.8rem;
   font-family: "Barlow", sans-serif;
+  color: #23303e;
 }
 
 .header-font {
@@ -282,6 +283,15 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.flex-sb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .attribution {
@@ -429,10 +439,12 @@ header img {
 
 .info__gallery .card--bg1 {
   background: url(../../../images/desktop/image-graphic-design.jpg);
+  color: #25564b;
 }
 
 .info__gallery .card--bg2 {
   background: url(../../../images/desktop/image-photography.jpg);
+  color: #19536b;
 }
 
 .info__gallery .card--text {
@@ -446,6 +458,48 @@ header img {
 
 .info__gallery .card--text .info__gallery-text {
   width: 55%;
+}
+
+.testimonials {
+  text-align: center;
+  width: 85%;
+  margin: 0 auto;
+  padding: 150px 0;
+}
+
+.testimonials .testimonials__title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  color: #818498;
+  margin-bottom: 100px;
+}
+
+.testimonials .testimonials__card-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 30%;
+}
+
+.testimonials .testimonials__card-container img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.testimonials .testimonials__card-container .testimonials__text {
+  margin: 80px 0px;
+  line-height: 3.4rem;
+  width: 95%;
+}
+
+.testimonials .testimonials__card-container .testimonials__clientinfo p:nth-child(2) {
+  color: #a7abae;
 }
 
 @media (max-width: 760px) {
