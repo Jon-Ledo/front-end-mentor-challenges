@@ -295,15 +295,6 @@ body {
           justify-content: space-between;
 }
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-
-.attribution a {
-  color: #3e52a3;
-}
-
 header {
   background: url(../../../images/desktop/image-header.jpg) center no-repeat;
   background-size: cover;
@@ -359,13 +350,6 @@ header img {
   list-style: none;
 }
 
-.navbar .navbar__links-container li:last-child a {
-  color: #23303e;
-  background: white;
-  text-transform: uppercase;
-  text-shadow: none;
-}
-
 .navbar .navbar__links-container .navbar__link {
   text-decoration: none;
   color: white;
@@ -378,6 +362,13 @@ header img {
 .navbar .navbar__links-container .navbar__link:hover, .navbar .navbar__links-container .navbar__link:focus, .navbar .navbar__links-container .navbar__link:active {
   background-color: #87c8e9;
   color: white;
+}
+
+.navbar .navbar__links-container .link--white {
+  color: #23303e;
+  background: white;
+  text-transform: uppercase;
+  text-shadow: none;
 }
 
 .info__gallery {
@@ -420,6 +411,11 @@ header img {
   position: absolute;
   border-radius: 15px;
   opacity: 0.3;
+}
+
+.info__gallery .info__gallery-card .btn:hover.btn::before {
+  opacity: 1;
+  z-index: -1;
 }
 
 .info__gallery .info__gallery-card .btn1::before {
@@ -512,6 +508,69 @@ header img {
 .image-gallery .image-gallery--img {
   display: block;
   width: 25%;
+}
+
+.navigation {
+  background-color: #8AD2C4;
+  text-align: center;
+  padding: 100px 0px;
+}
+
+.navigation .navbar .nav-bar--dark {
+  color: #397468;
+  text-shadow: none;
+  margin-bottom: 60px;
+  display: block;
+}
+
+.navigation .navbar .navbar__links-container {
+  margin-bottom: 120px;
+}
+
+.navigation .navbar .navbar__links-container .navbar__link {
+  color: #397468;
+  text-shadow: none;
+}
+
+.navigation .navbar .navbar__links-container .navbar__link:hover, .navigation .navbar .navbar__links-container .navbar__link:focus, .navigation .navbar .navbar__links-container .navbar__link:active {
+  background-color: transparent;
+  color: white;
+}
+
+.navigation .socials__container {
+  list-style: none;
+  margin: 0;
+}
+
+.navigation .socials__container li a {
+  text-decoration: none;
+  font-size: 3rem;
+  padding: 15px;
+  color: #397468;
+}
+
+.navigation .socials__container li a:hover, .navigation .socials__container li a:focus, .navigation .socials__container li a:active {
+  color: white;
+}
+
+footer {
+  background-color: #8AD2C4;
+  color: #397468;
+}
+
+footer p {
+  margin: 0;
+  padding: 10px;
+  font-size: 1.4rem;
+}
+
+.attribution {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
 }
 
 @media (max-width: 760px) {

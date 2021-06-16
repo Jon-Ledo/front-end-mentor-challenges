@@ -35,6 +35,11 @@
         border-radius: 15px;
         opacity: 0.3;
       }
+
+      &:hover.btn::before {
+        opacity: 1;
+        z-index: -1;
+      }
     }
 
     .btn1::before {
