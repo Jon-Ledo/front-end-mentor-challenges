@@ -1,0 +1,19 @@
+@media (max-width: 760px) {
+  .navbar {
+
+    .navbar__links-container {
+      display: none;
+      width: 100%;
+  
+      &.show {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  }
+
+}
