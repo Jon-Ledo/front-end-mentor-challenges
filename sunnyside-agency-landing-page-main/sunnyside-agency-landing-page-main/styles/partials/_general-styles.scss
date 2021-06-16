@@ -1,5 +1,19 @@
+// typography
 body {
   font-size: $bodyFontSize;
+  font-family: $bodyFont;
+}
+
+.header-font {
+  font-family: $headerFont;
+  font-weight: 900;
+}
+
+// layout
+.content-wrapper {
+  margin: 0 auto;
+  width: 85%;
+  max-width: 1440px;
 }
 
 .flex {
@@ -15,3 +29,11 @@ body {
   align-items: center;
 }
 
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

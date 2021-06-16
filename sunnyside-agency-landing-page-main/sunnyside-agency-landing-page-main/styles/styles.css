@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap");
 html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
@@ -241,6 +242,18 @@ html {
 
 body {
   font-size: 1.8rem;
+  font-family: "Barlow", sans-serif;
+}
+
+.header-font {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+}
+
+.content-wrapper {
+  margin: 0 auto;
+  width: 85%;
+  max-width: 1440px;
 }
 
 .flex {
@@ -271,6 +284,44 @@ body {
           align-items: center;
 }
 
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+header {
+  background: url(../../../images/desktop/image-header.jpg) center no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  text-align: center;
+  color: white;
+}
+
+header h1 {
+  font-size: 6rem;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  margin-top: 100px;
+  margin-bottom: 175px;
+  text-shadow: 1px 1px #5a636c;
+}
+
+header img {
+  -webkit-filter: drop-shadow(0.5px 0.5px 1px #333);
+          filter: drop-shadow(0.5px 0.5px 1px #333);
+}
+
+.top--nav {
+  width: 95%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
 .navbar {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -279,12 +330,43 @@ body {
       flex-wrap: wrap;
 }
 
+.navbar .navbar__logo {
+  font-size: 3rem;
+  text-shadow: 1px 1px #5a636c;
+}
+
 .navbar .hamburger {
   background-color: transparent;
   border: 0;
-  font-size: 2rem;
+  font-size: 3rem;
   cursor: pointer;
   display: none;
+  color: white;
+}
+
+.navbar .navbar__links-container {
+  list-style: none;
+}
+
+.navbar .navbar__links-container li:last-child a {
+  color: #23303e;
+  background: white;
+  text-transform: uppercase;
+  text-shadow: none;
+}
+
+.navbar .navbar__links-container .navbar__link {
+  text-decoration: none;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 30px;
+  margin-left: 10px;
+  text-shadow: 1px 1px #5a636c;
+}
+
+.navbar .navbar__links-container .navbar__link:hover, .navbar .navbar__links-container .navbar__link:focus, .navbar .navbar__links-container .navbar__link:active {
+  background-color: #87c8e9;
+  color: white;
 }
 
 @media (max-width: 760px) {

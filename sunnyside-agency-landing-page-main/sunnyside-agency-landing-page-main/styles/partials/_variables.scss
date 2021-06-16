@@ -17,12 +17,11 @@ $white: hsl(0, 0%, 100%);
 
 // ## Typography
 
-// ### Body Copy
-$bodyFontSize: 1.8rem;
-
 // ### Font
-// $Family: [Barlow](https://fonts.google.com/specimen/Barlow)
-// $Weights: 600
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
 
-// $Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
-// $Weights: 700, 900
+$headerFont: 'Fraunces', serif;
+$bodyFont: 'Barlow', sans-serif;
+
+// ### Body Size
+$bodyFontSize: 1.8rem;
