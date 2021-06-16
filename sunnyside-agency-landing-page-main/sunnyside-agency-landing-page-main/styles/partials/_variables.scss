@@ -5,7 +5,7 @@ $softRed: hsl(7, 99%, 70%);
 $yellow: hsl(51, 100%, 49%);
 $darkDesaturatedCyan: hsl(167, 40%, 24%); // (graphic design text)
 $darkBlue: hsl(198, 62%, 26%); // (photography text)
-$darkModerateCyan: hsl(168, 34%, 41%); // (footer)
+$darkModerateCyan: hsl(168, 34%, 34%); // (footer)
 
 // ### Neutral
 $veryDarkDesaturatedBlue: hsl(212, 27%, 19%);
@@ -18,7 +18,7 @@ $white: hsl(0, 0%, 100%);
 // ## Typography
 
 // ### Font
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600;800&family=Fraunces:wght@700;900&display=swap');
 
 $headerFont: 'Fraunces', serif;
 $bodyFont: 'Barlow', sans-serif;
