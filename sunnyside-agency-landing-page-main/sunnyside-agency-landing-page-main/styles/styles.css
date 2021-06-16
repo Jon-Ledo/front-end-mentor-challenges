@@ -244,6 +244,7 @@ body {
   font-size: 1.8rem;
   font-family: "Barlow", sans-serif;
   color: #23303e;
+  background-color: white;
 }
 
 .header-font {
@@ -500,6 +501,17 @@ header img {
 
 .testimonials .testimonials__card-container .testimonials__clientinfo p:nth-child(2) {
   color: #a7abae;
+}
+
+.image-gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.image-gallery .image-gallery--img {
+  display: block;
+  width: 25%;
 }
 
 @media (max-width: 760px) {
