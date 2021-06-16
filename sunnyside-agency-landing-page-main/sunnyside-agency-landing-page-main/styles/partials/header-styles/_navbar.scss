@@ -1,0 +1,13 @@
+.navbar {
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  .hamburger {
+    background-color: transparent;
+    border: 0;
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+    
+  }
+}

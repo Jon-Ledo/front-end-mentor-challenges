@@ -10,6 +10,7 @@
 
   <title>Frontend Mentor | Sunnyside agency landing page</title>
 
+  <script src="https://kit.fontawesome.com/ed48cba7cc.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./styles/styles.css">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -26,10 +27,13 @@
 
 <body>
   <header>
-    <nav class="navbar top--nav">
+    <nav class="navbar top--nav flex">
       <span class="navbar__logo navbar--white">
         sunnyside
       </span>
+      <button class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </button>
       <ul class="navbar__links-container">
         <li><a href="#" class="navbar__link">About</a></li>
         <li><a href="#" class="navbar__link">Services</a></li>
@@ -184,6 +188,8 @@
       <a href="#">Jon Ledo</a>.
     </p>
   </footer>
+
+  <script src="./script.js"></script>
 </body>
 
 </html>
