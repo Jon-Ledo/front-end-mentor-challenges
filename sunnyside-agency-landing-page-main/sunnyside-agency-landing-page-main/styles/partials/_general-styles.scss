@@ -1,4 +1,4 @@
-// typography
+// base layout
 body {
   font-size: $bodyFontSize;
   font-family: $bodyFont;
@@ -6,6 +6,7 @@ body {
   background-color: $white;
 }
 
+// typography
 .header-font {
   font-family: $headerFont;
   font-weight: 900;
