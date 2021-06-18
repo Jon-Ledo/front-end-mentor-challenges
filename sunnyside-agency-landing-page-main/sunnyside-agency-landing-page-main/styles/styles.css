@@ -525,23 +525,34 @@ header img {
   padding: 100px 0px;
 }
 
-.navigation .navbar .nav-bar--dark {
+.navigation .bottom-nav .nav-bar--dark {
   color: #397468;
   text-shadow: none;
   margin-bottom: 60px;
   display: block;
 }
 
-.navigation .navbar .navbar__links-container {
+.navigation .bottom-nav .navbar__links-container2 {
   margin-bottom: 120px;
+  list-style: none;
+  padding-left: 0;
 }
 
-.navigation .navbar .navbar__links-container .navbar__link {
+.navigation .bottom-nav .navbar__links-container2 li:first-child {
+  margin-left: 0px;
+}
+
+.navigation .bottom-nav .navbar__links-container2 li {
+  margin-left: 20px;
+}
+
+.navigation .bottom-nav .navbar__links-container2 li .navbar__link {
   color: #397468;
   text-shadow: none;
+  text-decoration: none;
 }
 
-.navigation .navbar .navbar__links-container .navbar__link:hover, .navigation .navbar .navbar__links-container .navbar__link:focus, .navigation .navbar .navbar__links-container .navbar__link:active {
+.navigation .bottom-nav .navbar__links-container2 li .navbar__link:hover, .navigation .bottom-nav .navbar__links-container2 li .navbar__link:focus, .navigation .bottom-nav .navbar__links-container2 li .navbar__link:active {
   background-color: transparent;
   color: white;
 }
@@ -549,6 +560,7 @@ header img {
 .navigation .socials__container {
   list-style: none;
   margin: 0;
+  padding-left: 0;
 }
 
 .navigation .socials__container li a {
@@ -769,32 +781,12 @@ footer p {
   }
   .navigation {
     padding: 80px 0px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
   }
-  .navigation .bottom-nav .nav-bar--dark {
-    margin-bottom: 60px;
-  }
-  .navigation .bottom-nav .navbar__links-container {
+  .navigation .bottom-nav .navbar__links-container2 {
     margin-bottom: 100px;
-    display: block;
-    -webkit-box-orient: inherit;
-    -webkit-box-direction: inherit;
-        -ms-flex-direction: inherit;
-            flex-direction: inherit;
-  }
-  .navigation .bottom-nav .navbar__links-container .navbar__link {
-    color: #397468;
-    text-shadow: none;
-  }
-  .navigation .bottom-nav .navbar__links-container .navbar__link:hover, .navigation .bottom-nav .navbar__links-container .navbar__link:focus, .navigation .bottom-nav .navbar__links-container .navbar__link:active {
-    background-color: transparent;
-    color: white;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
   }
   .navigation .socials__container {
     padding-left: 0;

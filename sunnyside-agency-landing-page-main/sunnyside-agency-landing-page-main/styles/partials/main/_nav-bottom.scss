@@ -3,7 +3,7 @@
   text-align: center;
   padding: 100px 0px;
 
-  .navbar { // bottom-nav
+  .bottom-nav {
     .nav-bar--dark {
       color: $darkModerateCyan;
       text-shadow: none;
@@ -11,19 +11,32 @@
       display: block;
     }
 
-    .navbar__links-container {
+    .navbar__links-container2 {
       margin-bottom: 120px;
-      .navbar__link {
-        color: $darkModerateCyan;
-        text-shadow: none;
+      list-style: none;
+      padding-left: 0;
 
-        &:hover,
-        &:focus,
-        &:active {
-          background-color: transparent;
-          color: $white;
+      li:first-child {
+        margin-left: 0px;
+      }
+
+      li {
+        margin-left: 20px;
+
+        .navbar__link {
+          color: $darkModerateCyan;
+          text-shadow: none;
+          text-decoration: none;
+  
+          &:hover,
+          &:focus,
+          &:active {
+            background-color: transparent;
+            color: $white;
+          }
         }
       }
+      
     }
   } 
 
@@ -31,6 +44,7 @@
   .socials__container {
     list-style: none;
     margin: 0;
+    padding-left: 0;
 
     li a {
       text-decoration: none;

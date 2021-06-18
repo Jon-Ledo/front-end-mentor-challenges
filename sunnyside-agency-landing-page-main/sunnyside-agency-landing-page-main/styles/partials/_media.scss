@@ -184,30 +184,11 @@
 
   .navigation {
     padding: 80px 0px;
-    display: flex;
-    flex-direction: column;
-    
-    .bottom-nav { // bottom-nav
-      .nav-bar--dark {
-        margin-bottom: 60px;
-      }
-      
-      .navbar__links-container {
-        margin-bottom: 100px;
-        display: block;
-        flex-direction: inherit;
-        
-        .navbar__link {
-          color: $darkModerateCyan;
-          text-shadow: none;
 
-          &:hover,
-          &:focus,
-          &:active {
-            background-color: transparent;
-            color: $white;
-          }
-        }
+    .bottom-nav {
+      .navbar__links-container2 {
+        margin-bottom: 100px;
+        justify-content: space-evenly;
       }
     } 
 
