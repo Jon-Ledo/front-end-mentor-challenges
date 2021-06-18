@@ -1,5 +1,5 @@
 .top--nav {
-  width: 95%;
+  width: 90%;
   max-width: 1440px;
   margin: 0 auto;
   padding-top: 30px;
@@ -47,6 +47,15 @@
       background: $white;
       text-transform: uppercase;
       text-shadow: none;
+      font-family: $headerFont;
+    } 
+
+    .link--yellow {
+      color: black;
+      background: $yellow;
+      text-transform: uppercase;
+      text-shadow: none;
+      font-family: $headerFont;
     } 
   }
 }
